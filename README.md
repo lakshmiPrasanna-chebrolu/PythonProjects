@@ -34,7 +34,7 @@ where dark areas are identified as characters that need to be recognised
 <ul><li>In speech recognition the audio file we extracted from the the audio clip file is saved as audio-extract.wav which will be used for the recognition of audio using googles api recognize_audio function and converts the audio into text.</li>
   <li><b><i> Requirements:
     </i></b>
-    pip3 install pydub
+    pip3 install pydub <br>
     pip3 install SpeechRecognition
   </li></ul>
 </p>
