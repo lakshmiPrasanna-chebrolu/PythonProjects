@@ -25,3 +25,16 @@ where dark areas are identified as characters that need to be recognised
   pip3 install PyTesseract
   
 </h3>
+<h1>Audio S&R
+</h1>
+<p>Pydub package and speech recognisation packages have been installed.
+<br>
+  with the help of the Pydub module we segment the audio into parts of some milliseconds that we require make sure the size to of the audio file should not exceed more than 10mb otherwise it might cause error.
+  <b> Note:</b> ffmpeg file should be downloaded and the bin path should be added to the  path variable in system.
+<ul><li>In speech recognition the audio file we extracted from the the audio clip file is saved as audio-extract.wav which will be used for the recognition of audio using googles api recognize_audio function and converts the audio into text.</li>
+  <li><b><i> Requirements:
+    </i></b>
+    pip3 install pydub
+    pip3 install SpeechRecognition
+  </li></ul>
+</p>
